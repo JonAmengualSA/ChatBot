@@ -1,0 +1,50 @@
+[
+  {
+    "id": "9a173594-d9b4-4c55-97ef-d4bc66ad7b45",
+    "data": [
+      {
+        "text": "okey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ac52f1b-9c34-425d-b33d-0310067152e1",
+    "data": [
+      {
+        "text": "ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae289c86-604f-45de-984d-7187608ed37d",
+    "data": [
+      {
+        "text": "Thank you!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2db8180a-74fc-453f-b1ca-d812f90ee34f",
+    "data": [
+      {
+        "text": "thank you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

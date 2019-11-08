@@ -1,0 +1,68 @@
+{
+  "id": "f456b33e-d61a-4d3d-b721-8cdf8cc94cff",
+  "parentId": "98cbbf05-9f89-4509-b2c6-19db0c36a10f",
+  "rootParentId": "98cbbf05-9f89-4509-b2c6-19db0c36a10f",
+  "name": "RealizarPedido - yes",
+  "auto": true,
+  "contexts": [
+    "RealizarPedido-followup",
+    "RealizarPedido-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RealizarPedido.RealizarPedido-yes",
+      "affectedContexts": [
+        {
+          "name": "RealizarPedido-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2eb05182-074e-453b-b248-88d9c275482f",
+          "required": false,
+          "dataType": "@OrderID",
+          "name": "OrderID",
+          "value": "7516",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "According to your order ID is $OrderID When would you like to receive it? (Monday, tuesday, wednseday, thrusday, friday)"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "De acuerdo su ID de pedido es $OrderID . Para cuando le gustaria recivirlo? (Lunes, Martes, Miercoles, Jueves, Viernes)"
+        },
+        {
+          "type": 0,
+          "lang": "es-es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

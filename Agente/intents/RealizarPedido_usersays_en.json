@@ -1,0 +1,38 @@
+[
+  {
+    "id": "078e7a95-76f3-426a-b509-4296bec12586",
+    "data": [
+      {
+        "text": "Orders",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2bbb77e4-3952-475f-8b4c-7a8899ac334d",
+    "data": [
+      {
+        "text": "purchase",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75118b35-97b5-41bf-b664-198b644772fc",
+    "data": [
+      {
+        "text": "order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  }
+]

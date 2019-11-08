@@ -1,0 +1,54 @@
+{
+  "id": "4e8e01dc-5770-4f4f-92bb-e4c02a72dd5a",
+  "parentId": "08ecc936-70f6-4ea1-9ab2-5563010e24ba",
+  "rootParentId": "98cbbf05-9f89-4509-b2c6-19db0c36a10f",
+  "name": "RealizarPedido - no - yes",
+  "auto": true,
+  "contexts": [
+    "RealizarPedido-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RealizarPedido.RealizarPedido-no.RealizarPedido-no-yes",
+      "affectedContexts": [
+        {
+          "name": "RealizarPedido-no-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Enter your OrderID"
+        },
+        {
+          "type": 0,
+          "lang": "es-es",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

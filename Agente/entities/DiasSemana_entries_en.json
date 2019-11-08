@@ -1,0 +1,37 @@
+[
+  {
+    "value": "Monday",
+    "synonyms": [
+      "Monday",
+      "monday"
+    ]
+  },
+  {
+    "value": "Tuesday",
+    "synonyms": [
+      "Tuesday",
+      "tuesday"
+    ]
+  },
+  {
+    "value": "Wednesday",
+    "synonyms": [
+      "Wednesday",
+      "wednesday"
+    ]
+  },
+  {
+    "value": "Thursday",
+    "synonyms": [
+      "Thursday",
+      "thursday"
+    ]
+  },
+  {
+    "value": "Friday",
+    "synonyms": [
+      "Friday",
+      "friday"
+    ]
+  }
+]

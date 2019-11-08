@@ -1,0 +1,72 @@
+[
+  {
+    "id": "c9411b1b-59ad-460d-9460-b382cde18d4f",
+    "data": [
+      {
+        "text": "Wednesday",
+        "alias": "DiasSemana",
+        "meta": "@DiasSemana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8c6df5df-f577-4587-80bd-a428efb99927",
+    "data": [
+      {
+        "text": "tuesday",
+        "alias": "DiasSemana",
+        "meta": "@DiasSemana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "89491caf-1389-40a5-ac2c-b6ce9da16bf1",
+    "data": [
+      {
+        "text": "Thursday",
+        "alias": "DiasSemana",
+        "meta": "@DiasSemana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9586d2e2-ec8d-4488-ad2b-c618d362a1a3",
+    "data": [
+      {
+        "text": "friday",
+        "alias": "DiasSemana",
+        "meta": "@DiasSemana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "e15cbedf-7de9-4d0c-804e-f4c5c772a2b5",
+    "data": [
+      {
+        "text": "Monday",
+        "alias": "DiasSemana",
+        "meta": "@DiasSemana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

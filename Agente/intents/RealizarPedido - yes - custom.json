@@ -1,0 +1,90 @@
+{
+  "id": "55957751-885f-4bc3-8aaf-3fe86e431b01",
+  "parentId": "f456b33e-d61a-4d3d-b721-8cdf8cc94cff",
+  "rootParentId": "98cbbf05-9f89-4509-b2c6-19db0c36a10f",
+  "name": "RealizarPedido - yes - custom",
+  "auto": true,
+  "contexts": [
+    "RealizarPedido-yes-followup",
+    "RealizarPedido-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RealizarPedido.RealizarPedido-yes.RealizarPedido-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "RealizarPedido-yes-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "RealizarPedido-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "RealizarPedido-yes-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b0e1855d-420a-496f-9892-fceae8f51df8",
+          "required": false,
+          "dataType": "@DiasSemana",
+          "name": "DiasSemana",
+          "value": "$DiasSemana",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "ec388dfc-525a-4bd2-a8d4-c98e81f54e1b",
+          "required": false,
+          "dataType": "@OrderID",
+          "name": "OrderID",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "7854",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "The order $OrderID will be placed on $DiasSemana"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "El pedido $OrderID  se entregara el $DiasSemana . ¿Cuanta cantidad quiere comprar?"
+        },
+        {
+          "type": 0,
+          "lang": "es-es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

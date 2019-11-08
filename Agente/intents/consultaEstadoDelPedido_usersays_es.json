@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1612f41f-2b72-42b0-8f75-a470eaa14e85",
+    "data": [
+      {
+        "text": "¿Cuál es el estado de la orden con ID ",
+        "userDefined": false
+      },
+      {
+        "text": "12345",
+        "alias": "OrderID",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87bfbecb-9a10-4b5a-b7f1-4b19592ee9d7",
+    "data": [
+      {
+        "text": "Hice ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "compra",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " pero no me llegó el pedido todavía",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e3ef76e4-7fc4-4c4e-9e12-33a7a964636f",
+    "data": [
+      {
+        "text": "¿Cuándo va a llegar el producto que compré?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "56d210ff-4d3c-43f7-b1b6-3b278292d90f",
+    "data": [
+      {
+        "text": "¿Qué le pasó a mi ",
+        "userDefined": false
+      },
+      {
+        "text": "compra",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0cb0372-31d3-4b59-a560-7044850aae87",
+    "data": [
+      {
+        "text": "¿Cuándo llegará mi orden?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "150bf0fc-92e3-4f41-a621-884a58610b44",
+    "data": [
+      {
+        "text": "¿Cuál es el estado de mi orden?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

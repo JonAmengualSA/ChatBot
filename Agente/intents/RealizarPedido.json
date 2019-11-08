@@ -1,0 +1,49 @@
+{
+  "id": "98cbbf05-9f89-4509-b2c6-19db0c36a10f",
+  "name": "RealizarPedido",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "RealizarPedido-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Would you like to place an order?",
+            "Do you want to place an order?"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": [
+            "¿Le gustaría realizar algun pedido?",
+            "¿Quiere realizar algun pedido?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

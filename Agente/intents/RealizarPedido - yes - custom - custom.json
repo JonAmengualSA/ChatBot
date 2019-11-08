@@ -1,0 +1,50 @@
+{
+  "id": "30a52e3e-89f7-45dd-b186-9703e95cf5cc",
+  "parentId": "55957751-885f-4bc3-8aaf-3fe86e431b01",
+  "rootParentId": "98cbbf05-9f89-4509-b2c6-19db0c36a10f",
+  "name": "RealizarPedido - yes - custom - custom",
+  "auto": true,
+  "contexts": [
+    "RealizarPedido-yes-followup",
+    "RealizarPedido-followup",
+    "RealizarPedido-yes-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RealizarPedido.RealizarPedido-yes.RealizarPedido-yes-custom.RealizarPedido-yes-custom-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Goodby!"
+        },
+        {
+          "type": 0,
+          "lang": "es-es",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

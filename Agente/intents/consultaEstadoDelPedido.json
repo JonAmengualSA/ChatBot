@@ -1,0 +1,96 @@
+{
+  "id": "28cbb97b-fa1e-4819-8e03-1c76a23fafd2",
+  "name": "consultaEstadoDelPedido",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3477129c-9b9e-4ba7-b67a-d3e75632facd",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "40b08eb7-3c69-4f97-b59a-dddb14a44e9d",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d3794f11-2a27-430b-9c8d-01b001582795",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "OrderID",
+          "value": "$OrderID",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the Order ID?"
+            },
+            {
+              "lang": "en",
+              "value": "Please enter the order ID you wish to consult"
+            },
+            {
+              "lang": "es",
+              "value": "¿Cual es el ID de pedido?"
+            },
+            {
+              "lang": "es",
+              "value": "Introduzca por favor el ID del pedido que desa consultar"
+            },
+            {
+              "lang": "es",
+              "value": "Introduzca el Id de pedido (es un número como 12345)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "No se el estado del Pedido $OrderID  deseas realizar un pedido?"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "No se el estado del Pedido $OrderID  deseas realizar un pedido?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

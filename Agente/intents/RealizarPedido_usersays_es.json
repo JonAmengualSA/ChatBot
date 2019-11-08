@@ -1,0 +1,39 @@
+[
+  {
+    "id": "2280c817-e6f9-4e9c-8e3f-7a4b43843001",
+    "data": [
+      {
+        "text": "compra",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5cde98ec-042e-4edf-b33e-12524cf9f680",
+    "data": [
+      {
+        "text": "pedido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0e77e2a0-903e-45f8-a157-cf7743fa89ef",
+    "data": [
+      {
+        "text": "Pedidos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

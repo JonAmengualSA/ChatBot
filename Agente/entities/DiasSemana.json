@@ -1,0 +1,9 @@
+{
+  "id": "e0bb9fd4-5f5e-45bb-b13f-34779b158e71",
+  "name": "DiasSemana",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

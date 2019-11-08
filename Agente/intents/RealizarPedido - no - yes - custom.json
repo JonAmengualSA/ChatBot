@@ -1,0 +1,62 @@
+{
+  "id": "52f0da1b-5656-44ca-bac5-50b3c20cb5c7",
+  "parentId": "4e8e01dc-5770-4f4f-92bb-e4c02a72dd5a",
+  "rootParentId": "98cbbf05-9f89-4509-b2c6-19db0c36a10f",
+  "name": "RealizarPedido - no - yes - custom",
+  "auto": true,
+  "contexts": [
+    "RealizarPedido-no-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RealizarPedido.RealizarPedido-no.RealizarPedido-no-yes.RealizarPedido-no-yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6a1e55bd-2c1f-475c-8c9b-d0855c35d5bf",
+          "required": false,
+          "dataType": "@OrderID",
+          "name": "OrderID",
+          "value": "$OrderID",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "150",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Consultando $OrderID"
+        },
+        {
+          "type": 0,
+          "lang": "es-es",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
